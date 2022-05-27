@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+  color: white;
+  font-family: "Overpass", sans-serif;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+body {
+  background-color: hsl(216, 12%, 8%);
+}
+p {
+  font-size: 15px;
+  font-weight: 400;
+}
+/* styling numbers */
+ul li {
+  list-style-type: none;
+  border: 1px solid none;
+  border-radius: 50%;
+  padding: 0.8rem 1.2rem;
+  background-color: hsl(216, 12%, 54%);
+}
+ul li:hover {
+  background-color: hsl(217, 12%, 63%);
+  cursor: pointer;
+}
+ul li:active {
+  background-color: hsl(25, 97%, 53%);
+}
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0;
+}
+.card {
+  border: solid none;
+  border-radius: 2rem;
+  width: 400px;
+  padding: 1.2rem;
+  background-color: hsl(213, 19%, 18%);
+}
+.card * {
+  margin-bottom: 1rem;
+}
+main {
+  display: flex;
+  justify-content: space-around;
+  margin: 14rem 0;
+}
+button {
+  border: none;
+  padding: 0.9rem 10rem;
+  border-radius: 1.5rem;
+  background-color: hsl(25, 97%, 53%);
+  text-transform: uppercase;
+}
+button:hover {
+  background-color: white;
+  cursor: pointer;
+  color: hsl(25, 97%, 53%);
+}
+/* styling star */
+.star {
+  background-color: hsl(216, 12%, 54%);
+  border-radius: 50%;
+  padding: 0.6rem;
+}
+h1 {
+  font-weight: 700;
+}
+/* feedback text styiling */
+.support-request {
+  color: hsl(217, 12%, 63%);
+  line-height: 1.7rem;
+}
+.hidden {
+  display: none !important;
+}
+.thanking-page.card {
+  /* align-content: center; */
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 0;
+}
+.selected-feedback {
+  color: hsl(25, 97%, 53%);
+  background-color: hsl(213, 19%, 22%);
+  border-radius: 5rem;
+  padding: 0.5rem 1.5rem;
+}
+.selected-feedback span {
+  color: hsl(25, 97%, 53%);
+}
+.thanking-page .support-request {
+  text-align: center;
+  line-height: 1.4rem !important;
+  max-width: 343px;
+}
