@@ -1,26 +1,21 @@
-let option;
+let option = document.getElementById("selected");
 let feedback;
-function one() {
-  option = document.getElementById("selected");
+let checked;
+let one = () => {
   feedback = "1";
-}
-
-function two() {
-  option = document.getElementById("selected");
+};
+let two = () => {
   feedback = "2";
-}
-function three() {
-  option = document.getElementById("selected");
+};
+let three = () => {
   feedback = "3";
-}
-function four() {
-  option = document.getElementById("selected");
+};
+let four = () => {
   feedback = "4";
-}
-function five() {
-  option = document.getElementById("selected");
+};
+let five = () => {
   feedback = "5";
-}
+};
 function submit() {
   //if theres Choosed option then use => this statement
   if (option !== undefined) {
